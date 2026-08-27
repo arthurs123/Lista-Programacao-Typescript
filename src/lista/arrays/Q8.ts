@@ -16,3 +16,4 @@ alert("O aluno não realizou a prova")
 let num=notasSemestre.filter(item => typeof item==="number")
 alert(`Nota: ${num.join(", ")}`)
 }
+
