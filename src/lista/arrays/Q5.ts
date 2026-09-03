@@ -25,6 +25,10 @@ function gerenciar_tarefas(){
             vetor.push(escolha)
         }
         else if(op==2){
+
+
+
+            
             remove=String(prompt("Escreva o item que deseja marcar como concluido: "))
             itemRemove=vetor.indexOf(remove)
             if(itemRemove!=-1){
